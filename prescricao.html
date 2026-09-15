@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescrição Neurológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>Prescrição Médica</h1>
+        <p>Controle seguro de medicação neurológica</p>
+    </div>
+
+    <div class="card">
+
+        <h2>Dados da Prescrição</h2>
+
+        <label>Medicamento:</label>
+        <input type="text" placeholder="Ex: Levetiracetam">
+
+        <label>Dosagem (mg):</label>
+        <input type="text">
+
+        <label>Frequência:</label>
+        <input type="text" placeholder="Ex: 12/12h">
+
+        <label>Via de Administração:</label>
+
+        <select>
+            <option>Selecione</option>
+            <option>Oral</option>
+            <option>Intravenosa</option>
+            <option>Intramuscular</option>
+        </select>
+
+        <label>Duração (dias):</label>
+        <input type="number">
+
+        <label>Observações Médicas:</label>
+        <textarea></textarea>
+
+        <label>Assinatura do Neurologista:</label>
+        <input type="text" placeholder="Dr. Nome - CRM">
+
+        <button>Registrar Prescrição</button>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Alertas de Segurança</h3>
+
+        <div class="alert danger">
+            Alergia: Dipirona
+        </div>
+
+        <div class="alert warning">
+            Interação medicamentosa detectada
+        </div>
+
+        <div class="alert success">
+            Dose dentro do limite
+        </div>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Regras do Sistema</h3>
+
+        <ul>
+            <li>Verificar alergias</li>
+            <li>Detectar interações medicamentosas</li>
+            <li>Validar dose máxima</li>
+            <li>Registrar assinatura médica</li>
+            <li>Manter histórico de prescrições</li>
+        </ul>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Histórico de Prescrições</h2>
+
+        <div class="history-item">
+            <strong>Levetiracetam 500mg</strong>
+            <p>12/12h | Oral | 5 dias</p>
+            <p>Dr. João - CRM 12345</p>
+        </div>
+
+        <div class="history-item">
+            <strong>Ibuprofeno 400mg</strong>
+            <p>12/12h | Oral | 3 dias</p>
+            <p>Dra. Maria - CRM 67890</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
